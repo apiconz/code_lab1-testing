@@ -23,7 +23,7 @@ before_script:
     - GRADLE_OPTS="-Xms40m -Xmx3g -XX:MaxPermSize=3g"
 
 sudo: required
-script: "gradlew clean build test"
+script: gradle clean build test
 
 branches:
   only:
